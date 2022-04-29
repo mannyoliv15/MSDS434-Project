@@ -4,4 +4,8 @@ black
 flask==2.1.0
 numpy
 pandas
-
+scipy
+transformers
+torch
+Tensorflow==2.8.0
+Flax
