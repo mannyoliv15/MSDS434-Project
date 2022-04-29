@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div id="brandname">
+            <h1>Machine Learning App with Flask<h1>
+        </div>
+        <h2>Twitter Sentiment Analysis</h2>
+    </div>
+<!-- Starts form section -->
+        <div class="form-container ">
+            <form class="form-horizontal" action = "/predict/" method="post">
+                <div class="form-group row">
+                  <label class="control-label col-sm-2" for="tv">Tweet:</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="tv" name="tv">
+                  </div>
+                </div>
+    </h3>
+        <div class="form-group row"> 
+                <label class="control-label col-sm-2" for="">&nbsp;</label>                
+                  <div class="col-sm-offset-2 col-sm-4">
+                    <button type="submit" class="btn btn-primary">Predict</button>
+                  </div>
+                </div>
+              </form>
+            <!-- Ends form section -->
+        </div>
+    </div>
+  </body>
+</html>
