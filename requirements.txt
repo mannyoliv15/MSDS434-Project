@@ -6,3 +6,6 @@ numpy
 pandas
 scipy
 transformers
+Pytorch
+Tensorflow
+Flax
