@@ -6,6 +6,6 @@ numpy
 pandas
 scipy
 transformers
-Pytorch
-Tensorflow
+Pytorch==1.11.0
+Tensorflow==2.8.0
 Flax
