@@ -1,10 +1,4 @@
-pylint
-pytest==7.0.1
-black
 flask==2.1.0
-numpy
-pandas
 scipy
 transformers==4.4.2
 torch==1.6.0
-Flax

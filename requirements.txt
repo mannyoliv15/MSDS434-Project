@@ -7,5 +7,4 @@ pandas
 scipy
 transformers
 torch
-Tensorflow==2.8.0
 Flax

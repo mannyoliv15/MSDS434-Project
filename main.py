@@ -24,12 +24,18 @@ from flask import render_template
 # called `app` in `main.py`.
 app = Flask(__name__)
 
-#from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import requests
 
-#tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
+API_URL = "https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
+headers = {"Authorization": "Bearer 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"}
 
-#model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
-
+def query(payload):
+	response = requests.post(API_URL, headers=headers, json=payload)
+	return response.json()
+	
+output = query({
+	"inputs": "I like you. I love you",
+})
 @app.route('/')
 #def hello():
     #"""Return a friendly HTTP greeting."""
