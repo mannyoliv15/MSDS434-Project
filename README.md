@@ -5,4 +5,4 @@
 
 ## Architecture Diagram
 
-![Architecture diagram](/MSDS 434 Project.drawio)
+![Architecture diagram](/MSDS 434 Project.drawio.png)
