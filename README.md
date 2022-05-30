@@ -13,4 +13,4 @@
 
 
 
-## Technologyy
+## Technology Stack
