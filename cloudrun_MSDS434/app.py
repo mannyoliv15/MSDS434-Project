@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 # create a python dictionary for your models d = {<key>: <value>, <key>: <value>, ..., <key>: <value>}
-dictOfModels = {"RoBERTa" : transformers.pipeline("sentiment-analysis", model="siebert/sentiment-roberta-large-english"), "RoBERTA": transformers.pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment")}
+dictOfModels = {"General Text" : transformers.pipeline("sentiment-analysis", model="siebert/sentiment-roberta-large-english"), "Twitter": transformers.pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment")}
 # create a list of keys to use them in the select part of the html code
 listOfKeys = []
 for key in dictOfModels :
