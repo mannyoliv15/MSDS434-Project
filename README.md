@@ -15,9 +15,12 @@ This projects captures the deployment of a pretrained hugging face model using G
 The following GCP services were used:
 
 Cloud Run -- used to deploy containarized applications
-Cloud Storage- durable low cost storage for data accesses infrequently
-BigQuery- serveless multicloud data warehouse
-Dataprep - cloud dataprep services
+
+Cloud Storage-- durable low cost storage for data accesses infrequently
+
+BigQuery-- serveless multicloud data warehouse
+
+Dataprep -- cloud dataprep services
 
 
 
